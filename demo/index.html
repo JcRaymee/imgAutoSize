@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="script/imgAutoSize.js"></script>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="http://a.hiphotos.baidu.com/image/h%3D300/sign=2fede0fa75310a55db24d8f487444387/09fa513d269759eee5b61ac2befb43166c22dfd1.jpg"
+                alt="" />
+        </div>
+    </div>
+    <div class="container">
+        <div class="img">
+            <img src="http://a.hiphotos.baidu.com/image/h%3D300/sign=2fede0fa75310a55db24d8f487444387/09fa513d269759eee5b61ac2befb43166c22dfd1.jpg"
+                alt="" />
+        </div>
+    </div>
+    <div class="container">
+        <div class="img">
+            <img src="http://a.hiphotos.baidu.com/image/h%3D300/sign=2fede0fa75310a55db24d8f487444387/09fa513d269759eee5b61ac2befb43166c22dfd1.jpg"
+                alt="" />
+        </div>
+    </div>
+    <div class="container">
+        <div class="img">
+            <img src="http://a.hiphotos.baidu.com/image/h%3D300/sign=2fede0fa75310a55db24d8f487444387/09fa513d269759eee5b61ac2befb43166c22dfd1.jpg"
+                alt="" />
+        </div>
+    </div>
+
+    <script>
+        var imgBoxs = document.getElementsByClassName('img');
+        window.onload = function () {
+            for(var i=0;i<imgBoxs.length;i++){
+                new imgAutoSize({
+                    imgBox: imgBoxs[i],
+                    Left: 55*(i+1),//默认为图片原始宽度的一半
+                    Top: 50*(i+1),//默认为图片原始宽度的一半
+                    window: false//默认为false，是否全屏
+                })
+            }
+           
+        }
+
+    </script>
+</body>
+
+</html>
