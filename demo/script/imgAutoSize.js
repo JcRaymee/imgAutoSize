@@ -2,8 +2,8 @@
  * @Plugin name : img auto size
  * @Version : 1.0.0
  * @Author : Aile
- * @github : https://github.com/ailewl/imgAutoSize.js/
- * @Explain site : https://ailewl.github.io/imgAutoSize.js/#/
+ * @github : https://github.com/ailewl/imgAutoSize/
+ * @Explain site : https://ailewl.github.io/imgAutoSize/#/
  */
 function imgAutoSize(value) {
 	var _this = this;
