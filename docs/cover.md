@@ -1,10 +1,9 @@
-# Tab for Vue2 <small>1.0.0</small>
+# Img Auto Size <small>1.0.0</small>
 
-> A small one Carousel Tab plug-in for Vue2.
+> A small one Adaptive image plug-in for Protogenesis Javascript .
 
-* Simple and lightweight (~4kB js)
+* Simple and lightweight (~2kB for dev)
 * No statically built html files
-* Multiple themes
 
 [GitHub](https://github.com/ailewl/imgAutoSize/)
 [Demo](https://ailewl.github.io/imgAutoSize/demo)
