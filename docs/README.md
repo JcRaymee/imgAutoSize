@@ -4,7 +4,7 @@
 
 imgAutoSize (当前版本 v1.0.0) Demo及文件集成包下载地址
 
-> [ https://github.com/ailewl/Tab.Vue.js/Tab for Vue2.zip](https://github.com/ailewl/Tab.Vue.js/Tab for Vue2.zip)
+> [ https://github.com/ailewl/imgAutoSize/](https://github.com/ailewl/imgAutoSize/)
 
 ## 包含的内容
 集成包内包含：
